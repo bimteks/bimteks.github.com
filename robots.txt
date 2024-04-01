@@ -1,0 +1,14 @@
+---
+layout: null
+disallows:
+  - /404.html
+  - /tag*
+  - /tags*
+
+---
+
+User-agent: *{% for disallowed in page.disallows %}
+Disallow: {{ disallowed }}{% endfor %}
+Allow: /
+Sitemap: http://www.lakip.co.id/sitemap.xml
+Host: www.lakip.co.id
