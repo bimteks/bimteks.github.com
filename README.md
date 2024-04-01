@@ -1,9 +1,9 @@
 ---
 permalink: /index.html
-title: Not Found 😢
+title: Home 😢
 robots: noindex
 sitemap: false
-description: The page you are trying to view does not exist.
+description: This is the homepage.
 reload: true
 ---
 
